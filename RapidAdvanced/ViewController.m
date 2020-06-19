@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Chapter1.h"
+
 
 @interface ViewController ()
 
@@ -14,9 +16,19 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSLog(@"1 viewWillAppear");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSLog(@"%@",Chapter1.classP);
+    [Chapter1 setClassP:@"conan"];
+    NSLog(@"%@",Chapter1.classP);
+
 }
 
 
