@@ -5,9 +5,6 @@
 //  Created by 柯南 on 2020/6/19.
 //  Copyright © 2020 LTM. All rights reserved.
 //
-/**
- iOS开发快速进阶与实战／黄新宇著．—北京：清华大学出版社，2018（移动互联网开发技术丛书）ISBN 978-7-302-50385-9
- */
 
 #import "AppDelegate.h"
 
