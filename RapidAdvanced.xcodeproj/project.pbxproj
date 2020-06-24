@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276E418D24A32F0200CFB294 /* Chapter3.m in Sources */ = {isa = PBXBuildFile; fileRef = 276E418C24A32F0200CFB294 /* Chapter3.m */; };
 		27EEE7B0249C5A6B00163ACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7AF249C5A6B00163ACB /* AppDelegate.m */; };
 		27EEE7B3249C5A6B00163ACB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7B2249C5A6B00163ACB /* SceneDelegate.m */; };
 		27EEE7B6249C5A6B00163ACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7B5249C5A6B00163ACB /* ViewController.m */; };
@@ -17,9 +18,12 @@
 		27EEE7CA249C5F9000163ACB /* Chapter1.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7C9249C5F9000163ACB /* Chapter1.m */; };
 		27EEE7CD249C66A600163ACB /* UIViewController+LTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7CC249C66A600163ACB /* UIViewController+LTM.m */; };
 		27EEE7D0249C68BC00163ACB /* UIViewController+LTM1.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7CF249C68BC00163ACB /* UIViewController+LTM1.m */; };
+		27EEE7D4249CA45000163ACB /* Chapter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE7D3249CA45000163ACB /* Chapter2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		276E418B24A32F0200CFB294 /* Chapter3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter3.h; sourceTree = "<group>"; };
+		276E418C24A32F0200CFB294 /* Chapter3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter3.m; sourceTree = "<group>"; };
 		27EEE7AB249C5A6B00163ACB /* RapidAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EEE7AE249C5A6B00163ACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27EEE7AF249C5A6B00163ACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		27EEE7CC249C66A600163ACB /* UIViewController+LTM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LTM.m"; sourceTree = "<group>"; };
 		27EEE7CE249C68BC00163ACB /* UIViewController+LTM1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LTM1.h"; sourceTree = "<group>"; };
 		27EEE7CF249C68BC00163ACB /* UIViewController+LTM1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LTM1.m"; sourceTree = "<group>"; };
+		27EEE7D2249CA45000163ACB /* Chapter2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter2.h; sourceTree = "<group>"; };
+		27EEE7D3249CA45000163ACB /* Chapter2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		276E418A24A32EE800CFB294 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				276E418B24A32F0200CFB294 /* Chapter3.h */,
+				276E418C24A32F0200CFB294 /* Chapter3.m */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
 		27EEE7A2249C5A6B00163ACB = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +91,9 @@
 				27EEE7B2249C5A6B00163ACB /* SceneDelegate.m */,
 				27EEE7B4249C5A6B00163ACB /* ViewController.h */,
 				27EEE7B5249C5A6B00163ACB /* ViewController.m */,
-				27EEE7C7249C5F5C00163ACB /* Test */,
+				276E418A24A32EE800CFB294 /* Chapter3 */,
+				27EEE7D1249CA43A00163ACB /* Chapter2 */,
+				27EEE7C7249C5F5C00163ACB /* Chapter1 */,
 				27EEE7B7249C5A6B00163ACB /* Main.storyboard */,
 				27EEE7BA249C5A6E00163ACB /* Assets.xcassets */,
 				27EEE7BC249C5A6E00163ACB /* LaunchScreen.storyboard */,
@@ -86,7 +103,7 @@
 			path = RapidAdvanced;
 			sourceTree = "<group>";
 		};
-		27EEE7C7249C5F5C00163ACB /* Test */ = {
+		27EEE7C7249C5F5C00163ACB /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
 				27EEE7C8249C5F9000163ACB /* Chapter1.h */,
@@ -96,7 +113,16 @@
 				27EEE7CE249C68BC00163ACB /* UIViewController+LTM1.h */,
 				27EEE7CF249C68BC00163ACB /* UIViewController+LTM1.m */,
 			);
-			path = Test;
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		27EEE7D1249CA43A00163ACB /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				27EEE7D2249CA45000163ACB /* Chapter2.h */,
+				27EEE7D3249CA45000163ACB /* Chapter2.m */,
+			);
+			path = Chapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +199,10 @@
 				27EEE7CD249C66A600163ACB /* UIViewController+LTM.m in Sources */,
 				27EEE7B6249C5A6B00163ACB /* ViewController.m in Sources */,
 				27EEE7B0249C5A6B00163ACB /* AppDelegate.m in Sources */,
+				276E418D24A32F0200CFB294 /* Chapter3.m in Sources */,
 				27EEE7C1249C5A6E00163ACB /* main.m in Sources */,
 				27EEE7CA249C5F9000163ACB /* Chapter1.m in Sources */,
+				27EEE7D4249CA45000163ACB /* Chapter2.m in Sources */,
 				27EEE7B3249C5A6B00163ACB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
